@@ -1,0 +1,4 @@
+Dependencies for Project 'lcd_2sw', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\lpc_2sw.c)(0x6ADC20BC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lpc_2sw.o --omf_browse .\lpc_2sw.crf --depend .\lpc_2sw.d)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
