@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\led_lpc.o"
+--strict --scatter ".\led_lpc.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\led_lpc.map" -o .\led_lpc.axf
