@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Embedded System\Microcontroller\LPC2148\LPC Hardware\ADC\adc_lpc.uvproj
+Project File Date:  11/17/2026
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling adc_lpc.c...
+adc_lpc.c(32): warning:  #61-D: integer operation result is out of range
+          while ((AD0GDR & (1 << 31)) == 0);
+adc_lpc.c(32): warning:  #68-D: integer conversion resulted in a change of sign
+          while ((AD0GDR & (1 << 31)) == 0);
+adc_lpc.c(39): warning:  #111-D: statement is unreachable
+      return 0;
+adc_lpc.c(152): warning:  #1-D: last line of file ends without a newline
+  }
+adc_lpc.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=1968 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\adc_lpc.axf" - 0 Error(s), 4 Warning(s).
+</pre>
+</body>
+</html>
